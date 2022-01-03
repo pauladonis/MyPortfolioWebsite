@@ -1,0 +1,134 @@
+:root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+    --border-radius: 12px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+}
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0;
+    margin-bottom: var(--spacing-2);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#logo {
+    font-size: 2em;
+}
+
+#logo * {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+
+.navigation-items * {
+    margin: var(--spacing-1);
+    text-decoration:none;
+    color: black;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li * {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section {
+    padding: var(--spacing-3) 0;
+}
+
+section {
+    display: block;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-text-container {
+    margin-right: var(--spacing-3);
+}
+
+.image {
+    width: 25rem;
+    height: 20rem;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.skills-container > * {
+    font-size: 3em;
+    width: 3em;
+    margin-top: var(--spacing-1);
+}
